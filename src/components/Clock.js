@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './Clock.css'
 
 const Clock = ({audioRef, minutes, seconds, counterType}) =>{
