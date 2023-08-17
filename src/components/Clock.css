@@ -1,0 +1,44 @@
+@import '../assets/data/variables.css';
+
+@font-face {
+    font-family: 'digital'; 
+    src: url('../assets/fonts/digital-7\ \(mono\ italic\).ttf') format('opentype'); 
+  }
+
+.clock{
+    display: flex;
+    width: 290px;
+    height: 180px;
+    border-radius: 50px;
+    border: 2px solid ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;  
+    background-color: rgb(0, 0, 0, .6);
+}
+
+#clock h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.session-color{
+    color: var(--session);
+}
+
+.break-color{
+    color: var(--break);
+}
+
+.time-left{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family:'digital', sans-serif;
+    user-select: none;
+}
+
+.danger{
+    color: var(--danger);
+}
+
