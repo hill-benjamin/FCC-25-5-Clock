@@ -8,6 +8,7 @@
 .clock{
     display: flex;
     width: 290px;
+    max-width: 100%;
     height: 180px;
     border-radius: 50px;
     border: 2px solid ;
